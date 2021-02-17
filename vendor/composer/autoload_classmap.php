@@ -21,6 +21,7 @@ return array(
     'App\\Http\\Controllers\\resourceController' => $baseDir . '/app/Http/Controllers/resourceController.php',
     'App\\Http\\Controllers\\selfController' => $baseDir . '/app/Http/Controllers/selfController.php',
     'App\\Http\\Controllers\\studentController' => $baseDir . '/app/Http/Controllers/studentController.php',
+    'App\\Http\\Controllers\\userRegister' => $baseDir . '/app/Http/Controllers/userRegister.php',
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
     'App\\Http\\Middleware\\Authenticate' => $baseDir . '/app/Http/Middleware/Authenticate.php',
     'App\\Http\\Middleware\\CheckForMaintenanceMode' => $baseDir . '/app/Http/Middleware/CheckForMaintenanceMode.php',
@@ -39,6 +40,7 @@ return array(
     'App\\Providers\\RouteServiceProvider' => $baseDir . '/app/Providers/RouteServiceProvider.php',
     'App\\User' => $baseDir . '/app/User.php',
     'App\\post' => $baseDir . '/app/post.php',
+    'App\\userRegister' => $baseDir . '/app/userRegister.php',
     'Asm89\\Stack\\Cors' => $vendorDir . '/asm89/stack-cors/src/Cors.php',
     'Asm89\\Stack\\CorsService' => $vendorDir . '/asm89/stack-cors/src/CorsService.php',
     'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
@@ -4540,6 +4542,6 @@ return array(
     'phpDocumentor\\Reflection\\Types\\This' => $vendorDir . '/phpdocumentor/type-resolver/src/Types/This.php',
     'phpDocumentor\\Reflection\\Types\\Void_' => $vendorDir . '/phpdocumentor/type-resolver/src/Types/Void_.php',
     'phpDocumentor\\Reflection\\Utils' => $vendorDir . '/phpdocumentor/reflection-docblock/src/Utils.php',
-    'post' => $baseDir . '/database/seeds/post.php',
+    'postSeed' => $baseDir . '/database/seeds/post.php',
     'voku\\helper\\ASCII' => $vendorDir . '/voku/portable-ascii/src/voku/helper/ASCII.php',
 );

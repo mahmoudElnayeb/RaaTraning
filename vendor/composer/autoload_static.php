@@ -522,6 +522,7 @@ class ComposerStaticInit1db255adad38de061343da13e03be0fb
         'App\\Http\\Controllers\\resourceController' => __DIR__ . '/../..' . '/app/Http/Controllers/resourceController.php',
         'App\\Http\\Controllers\\selfController' => __DIR__ . '/../..' . '/app/Http/Controllers/selfController.php',
         'App\\Http\\Controllers\\studentController' => __DIR__ . '/../..' . '/app/Http/Controllers/studentController.php',
+        'App\\Http\\Controllers\\userRegister' => __DIR__ . '/../..' . '/app/Http/Controllers/userRegister.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\CheckForMaintenanceMode' => __DIR__ . '/../..' . '/app/Http/Middleware/CheckForMaintenanceMode.php',
@@ -540,6 +541,7 @@ class ComposerStaticInit1db255adad38de061343da13e03be0fb
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
         'App\\post' => __DIR__ . '/../..' . '/app/post.php',
+        'App\\userRegister' => __DIR__ . '/../..' . '/app/userRegister.php',
         'Asm89\\Stack\\Cors' => __DIR__ . '/..' . '/asm89/stack-cors/src/Cors.php',
         'Asm89\\Stack\\CorsService' => __DIR__ . '/..' . '/asm89/stack-cors/src/CorsService.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
@@ -5041,7 +5043,7 @@ class ComposerStaticInit1db255adad38de061343da13e03be0fb
         'phpDocumentor\\Reflection\\Types\\This' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/This.php',
         'phpDocumentor\\Reflection\\Types\\Void_' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/Void_.php',
         'phpDocumentor\\Reflection\\Utils' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/Utils.php',
-        'post' => __DIR__ . '/../..' . '/database/seeds/post.php',
+        'postSeed' => __DIR__ . '/../..' . '/database/seeds/post.php',
         'voku\\helper\\ASCII' => __DIR__ . '/..' . '/voku/portable-ascii/src/voku/helper/ASCII.php',
     );
 

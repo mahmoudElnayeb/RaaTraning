@@ -46,3 +46,5 @@ Route::get('lang/{local}' ,function($lang){
     Session::put('locale' ,$lang);
     return redirect()->back();
 });
+
+Route::resource('user', 'userRegisterController');

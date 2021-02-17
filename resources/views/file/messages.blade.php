@@ -7,6 +7,6 @@
 
 @if(session()->has("danger"))
 <div class=" alert alert-danger">
-  <h5>{{ session('alert')}}</h5>
+  <h5> {{ session('alert') }} </h5>
 </div>
 @endif
