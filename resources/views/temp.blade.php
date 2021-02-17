@@ -1,0 +1,7 @@
+@include('file.head')
+@include('file.header')
+@yield('navbar')
+@include('file.error')
+@include('file.messages')
+@yield('content')
+@include('file.footer')
