@@ -7,7 +7,7 @@
 @section('content')
     
       {{ Form::open([ 'method'=>'post' , 'route' =>'user.store' ]) }}
-  
+                  @csrf
       <div class="form-group">
         <label for="title"> Title </label>
         <input type="text" name="title" id="title" class="form-control">
@@ -26,7 +26,7 @@
         <label for="user_id"> User Id  </label>
         <input type="text" name="user_id" id="user_id" class="form-control">
     </div>
-    <input type='hidden' name='_token' value={{ csrf_token() }}>
+    {{-- <input type='hidden' name='_token' value={{ csrf_token() }}> --}}
     <button type="submit"> Send </button>
 
        {{ Form::close() }}

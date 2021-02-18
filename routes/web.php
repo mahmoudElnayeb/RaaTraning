@@ -48,3 +48,28 @@ Route::get('lang/{local}' ,function($lang){
 });
 
 Route::resource('user', 'userRegisterController');
+
+
+Route::middleware(['auth'])->group(function(){
+      Route::get('auth/user', function () {
+           return " this is user Auth page ";
+      });
+      Route::get('auth/home', function () {
+           return " yhis is Home Auth PAge ";   
+      });
+      Route::get('ourLogin' , 'myLoginControl@getForm')->name('getForm');
+      Route::post('ourLogin' , 'myLoginControl@postForm')->name('postForm');
+});
+
+Route::middleware(['adminMW:admin'])->group(function () {
+
+    Route::get('admin/user', function () {
+         return " admin user page Auth";
+    });
+    Route::get('admin/products', function () {
+        return " Admin Product Auth page";
+    });
+    Route::get('admin/cat', function () {
+        return " Admin Category Auth page";
+    });
+});
