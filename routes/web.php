@@ -73,3 +73,5 @@ Route::middleware(['adminMW:admin'])->group(function () {
         return " Admin Category Auth page";
     });
 });
+
+Route::get('sendMail' , 'mailController@sendMail');

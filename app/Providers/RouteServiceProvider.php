@@ -36,6 +36,7 @@ class RouteServiceProvider extends ServiceProvider
         parent::boot();
         Blade::directive('mado', function(){
             return ' Your name is Mahmoud :) ';
+            
         });
 
         
